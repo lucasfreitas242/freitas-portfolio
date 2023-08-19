@@ -1,0 +1,48 @@
+/* presentation.component.scss */
+.presentation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2C3E50;
+  }
+  
+  .presentation-content {
+    .card {
+      max-width: 600px;
+      width: 100%;
+      background-color: #34495E;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+      mat-card-title {
+        text-align: center;
+        margin: 10px;
+        color: #EAEAEA;
+      }
+      mat-card-subtitle {
+        text-align: center;
+        margin: 10px;
+        color: #3498DB;
+      }
+    }
+
+    .language {
+        align-items: center;
+    }
+
+    .avatar {
+        width: 200px; 
+        height: 200px; 
+        margin: 20px auto;
+        border-radius: 50%;
+        overflow: hidden; 
+      
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; 
+        }
+      }
+  }
+  
